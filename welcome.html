@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="logo">
+                <i class="fas fa-rocket"></i>
+                <h1>Welcome<span>App</span></h1>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li class="active"><a href="#"><i class="fas fa-home"></i> Dashboard</a></li>
+                    <li><a href="#"><i class="fas fa-chart-line"></i> Analytics</a></li>
+                    <li><a href="#"><i class="fas fa-users"></i> Users</a></li>
+                    <li><a href="#"><i class="fas fa-cog"></i> Settings</a></li>
+                    <li><a href="#"><i class="fas fa-question-circle"></i> Help</a></li>
+                </ul>
+            </nav>
+            <div class="user-profile">
+                <div class="avatar">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+                <div class="user-info">
+                    <h3>Welcome User</h3>
+                    <p>Administrator</p>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Header -->
+            <header class="header">
+                <div class="header-left">
+                    <h2>Welcome Dashboard</h2>
+                    <p>Your personalized welcome interface</p>
+                </div>
+                <div class="header-right">
+                    <div class="notification">
+                        <i class="fas fa-bell"></i>
+                        <span class="badge">3</span>
+                    </div>
+                    <div class="search-box">
+                        <i class="fas fa-search"></i>
+                        <input type="text" placeholder="Search...">
+                    </div>
+                </div>
+            </header>
+
+            <!-- Dashboard Content -->
+            <div class="dashboard-content">
+                <!-- Welcome Banner -->
+                <section class="welcome-banner">
+                    <div class="banner-content">
+                        <h1><i class="fas fa-hand-wave"></i> Hello World!</h1>
+                        <p class="helloworld-sentence">Welcome to our application dashboard. This is your personalized welcome interface where you can manage everything in one place.</p>
+                        <div class="banner-actions">
+                            <button class="btn-primary"><i class="fas fa-play"></i> Get Started</button>
+                            <button class="btn-secondary"><i class="fas fa-book"></i> View Documentation</button>
+                        </div>
+                    </div>
+                    <div class="banner-icon">
+                        <i class="fas fa-globe-americas"></i>
+                    </div>
+                </section>
+
+                <!-- Stats Cards -->
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon" style="background-color: #4f46e5;">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>1,254</h3>
+                            <p>Total Users</p>
+                        </div>
+                        <div class="stat-trend">
+                            <i class="fas fa-arrow-up"></i> 12%
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon" style="background-color: #10b981;">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>2,847</h3>
+                            <p>Sessions Today</p>
+                        </div>
+                        <div class="stat-trend">
+                            <i class="fas fa-arrow-up"></i> 8%
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon" style="background-color: #f59e0b;">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>156</h3>
+                            <p>New Orders</p>
+                        </div>
+                        <div class="stat-trend">
+                            <i class="fas fa-arrow-up"></i> 5%
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon" style="background-color: #ef4444;">
+                            <i class="fas fa-dollar-sign"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>$12,458</h3>
+                            <p>Revenue</p>
+                        </div>
+                        <div class="stat-trend">
+                            <i class="fas fa-arrow-up"></i> 15%
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Main Content Area -->
+                <div class="content-grid">
+                    <div class="content-card recent-activity">
+                        <div class="card-header">
+                            <h3><i class="fas fa-history"></i> Recent Activity</h3>
+                            <a href="#" class="view-all">View All</a>
+                        </div>
+                        <ul class="activity-list">
+                            <li>
+                                <div class="activity-icon">
+                                    <i class="fas fa-user-plus"></i>
+                                </div>
+                                <div class="activity-details">
+                                    <p><strong>New user registered</strong></p>
+                                    <p>John Doe joined the platform</p>
+                                </div>
+                                <div class="activity-time">5 min ago</div>
+                            </li>
+                            <li>
+                                <div class="activity-icon">
+                                    <i class="fas fa-file-upload"></i>
+                                </div>
+                                <div class="activity-details">
+                                    <p><strong>File uploaded</strong></p>
+                                    <p>Project_document.pdf</p>
+                                </div>
+                                <div class="activity-time">1 hour ago</div>
+                            </li>
+                            <li>
+                                <div class="activity-icon">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <div class="activity-details">
+                                    <p><strong>Task completed</strong></p>
+                                    <p>"Design welcome page" marked as done</p>
+                                </div>
+                                <div class="activity-time">2 hours ago</div>
+                            </li>
+                            <li>
+                                <div class="activity-icon">
+                                    <i class="fas fa-comment"></i>
+                                </div>
+                                <div class="activity-details">
+                                    <p><strong>New comment</strong></p>
+                                    <p>On project dashboard design</p>
+                                </div>
+                                <div class="activity-time">3 hours ago</div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="content-card quick-actions">
+                        <div class="card-header">
+                            <h3><i class="fas fa-bolt"></i> Quick Actions</h3>
+                        </div>
+                        <div class="actions-grid">
+                            <button class="action-btn">
+                                <i class="fas fa-plus"></i>
+                                <span>Add User</span>
+                            </button>
+                            <button class="action-btn">
+                                <i class="fas fa-upload"></i>
+                                <span>Upload File</span>
+                            </button>
+                            <button class="action-btn">
+                                <i class="fas fa-chart-bar"></i>
+                                <span>Generate Report</span>
+                            </button>
+                            <button class="action-btn">
+                                <i class="fas fa-cog"></i>
+                                <span>Settings</span>
+                            </button>
+                            <button class="action-btn">
+                                <i class="fas fa-question"></i>
+                                <span>Help Center</span>
+                            </button>
+                            <button class="action-btn">
+                                <i class="fas fa-download"></i>
+                                <span>Export Data</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hellworld Section -->
+                <section class="helloworld-section">
+                    <div class="helloworld-card">
+                        <div class="helloworld-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="helloworld-content">
+                            <h2><i class="fas fa-terminal"></i> Hello World Implementation</h2>
+                            <p class="helloworld-display">"Hello World! Welcome to our application dashboard. This classic programming greeting represents the beginning of your journey with our platform."</p>
+                            <div class="code-snippet">
+                                <pre><code>// Hello World in JavaScript
+console.log("Hello World!");
+
+// Hello World in Python
+print("Hello World!")
+
+// Hello World in HTML
+&lt;h1&gt;Hello World!&lt;/h1&gt;</code></pre>
+                            </div>
+                            <button class="btn-primary"><i class="fas fa-copy"></i> Copy Code</button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Footer -->
+            <footer class="footer">
+                <p>&copy; 2023 Welcome Dashboard. Created as part of the test-dsh-superagent project.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Contact Us</a>
+                </div>
+            </footer>
+        </main>
+    </div>
+
+    <script>
+        // Simple interactivity
+        document.addEventListener('DOMContentLoaded', function() {
+            // Copy code button
+            const copyButton = document.querySelector('.btn-primary .fa-copy').closest('button');
+            if (copyButton) {
+                copyButton.addEventListener('click', function() {
+                    const code = document.querySelector('.code-snippet code').innerText;
+                    navigator.clipboard.writeText(code).then(() => {
+                        const originalText = copyButton.innerHTML;
+                        copyButton.innerHTML = '<i class="fas fa-check"></i> Copied!';
+                        setTimeout(() => {
+                            copyButton.innerHTML = originalText;
+                        }, 2000);
+                    });
+                });
+            }
+
+            // Nav menu interactivity
+            const navItems = document.querySelectorAll('.nav-menu li');
+            navItems.forEach(item => {
+                item.addEventListener('click', function(e) {
+                    if (!this.classList.contains('active')) {
+                        navItems.forEach(i => i.classList.remove('active'));
+                        this.classList.add('active');
+                    }
+                });
+            });
+
+            // Action buttons
+            const actionButtons = document.querySelectorAll('.action-btn');
+            actionButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const action = this.querySelector('span').textContent;
+                    alert(`Action "${action}" triggered! This would perform the actual action in a real application.`);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
