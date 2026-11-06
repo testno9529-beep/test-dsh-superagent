@@ -28,7 +28,7 @@ const i18n = {
             "Search...": "Search...",
             
             // Welcome banner
-            "Hello World!": "Hello World!",
+            "欢迎你国彬": "欢迎你国彬",
             "Welcome to our application dashboard. This is your personalized welcome interface where you can manage everything in one place.": "Welcome to our application dashboard. This is your personalized welcome interface where you can manage everything in one place.",
             "Get Started": "Get Started",
             "View Documentation": "View Documentation",
@@ -117,7 +117,7 @@ const i18n = {
             "Search...": "搜索...",
             
             // Welcome banner
-            "Hello World!": "你好，世界！",
+            "欢迎你国彬": "欢迎你国彬",
             "Welcome to our application dashboard. This is your personalized welcome interface where you can manage everything in one place.": "欢迎来到我们的应用仪表板。这是您的个性化欢迎界面，您可以在一个地方管理所有内容。",
             "Get Started": "开始使用",
             "View Documentation": "查看文档",
