@@ -38,6 +38,7 @@ const i18n = {
             "Sessions Today": "Sessions Today",
             "New Orders": "New Orders",
             "Revenue": "Revenue",
+            "Reward": "Reward",
             
             // Recent Activity
             "Recent Activity": "Recent Activity",
@@ -127,6 +128,7 @@ const i18n = {
             "Sessions Today": "今日会话",
             "New Orders": "新订单",
             "Revenue": "收入",
+            "Reward": "奖励",
             
             // Recent Activity
             "Recent Activity": "最近活动",
