@@ -1,6 +1,6 @@
 # Welcome Page Implementation
 
-This directory contains the implementation of a welcome page with HTML, CSS, and a dashboard containing a "helloworld" sentence as requested in GitHub issue #8.
+This directory contains the implementation of a welcome page with HTML, CSS, and a dashboard containing a "hello world" sentence as requested in GitHub issue #8.
 
 ## Files Created
 

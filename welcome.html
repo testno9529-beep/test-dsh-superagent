@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome Dashboard</title>
+    <title data-i18n="Welcome Dashboard">Welcome Dashboard</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="i18n.js"></script>
 </head>
 <body>
     <div class="dashboard-container">
@@ -14,15 +15,15 @@
         <aside class="sidebar">
             <div class="logo">
                 <i class="fas fa-rocket"></i>
-                <h1>Welcome<span>App</span></h1>
+                <h1><span data-i18n="Welcome Dashboard">Welcome Dashboard</span><span data-i18n="App">App</span></h1>
             </div>
             <nav class="nav-menu">
                 <ul>
-                    <li class="active"><a href="#"><i class="fas fa-home"></i> Dashboard</a></li>
-                    <li><a href="#"><i class="fas fa-chart-line"></i> Analytics</a></li>
-                    <li><a href="#"><i class="fas fa-users"></i> Users</a></li>
-                    <li><a href="#"><i class="fas fa-cog"></i> Settings</a></li>
-                    <li><a href="#"><i class="fas fa-question-circle"></i> Help</a></li>
+                    <li class="active"><a href="#"><i class="fas fa-home"></i> <span data-i18n="Dashboard">Dashboard</span></a></li>
+                    <li><a href="#"><i class="fas fa-chart-line"></i> <span data-i18n="Analytics">Analytics</span></a></li>
+                    <li><a href="#"><i class="fas fa-users"></i> <span data-i18n="Users">Users</span></a></li>
+                    <li><a href="#"><i class="fas fa-cog"></i> <span data-i18n="Settings">Settings</span></a></li>
+                    <li><a href="#"><i class="fas fa-question-circle"></i> <span data-i18n="Help">Help</span></a></li>
                 </ul>
             </nav>
             <div class="user-profile">
@@ -30,8 +31,8 @@
                     <i class="fas fa-user-circle"></i>
                 </div>
                 <div class="user-info">
-                    <h3>Welcome User</h3>
-                    <p>Administrator</p>
+                    <h3 data-i18n="Welcome User">Welcome User</h3>
+                    <p data-i18n="Administrator">Administrator</p>
                 </div>
             </div>
         </aside>
@@ -41,8 +42,8 @@
             <!-- Header -->
             <header class="header">
                 <div class="header-left">
-                    <h2>Welcome Dashboard</h2>
-                    <p>Your personalized welcome interface</p>
+                    <h2 data-i18n="Welcome Dashboard">Welcome Dashboard</h2>
+                    <p data-i18n="Your personalized welcome interface">Your personalized welcome interface</p>
                 </div>
                 <div class="header-right">
                     <div class="notification">
@@ -51,7 +52,7 @@
                     </div>
                     <div class="search-box">
                         <i class="fas fa-search"></i>
-                        <input type="text" placeholder="Search...">
+                        <input type="text" data-i18n="Search..." placeholder="Search...">
                     </div>
                 </div>
             </header>
@@ -61,11 +62,11 @@
                 <!-- Welcome Banner -->
                 <section class="welcome-banner">
                     <div class="banner-content">
-                        <h1><i class="fas fa-hand-wave"></i> Hello World!</h1>
-                        <p class="helloworld-sentence">Welcome to our application dashboard. This is your personalized welcome interface where you can manage everything in one place.</p>
+                        <h1><i class="fas fa-hand-wave"></i> <span data-i18n="Hello World!">Hello World!</span></h1>
+                        <p class="helloworld-sentence" data-i18n="Welcome to our application dashboard. This is your personalized welcome interface where you can manage everything in one place.">Welcome to our application dashboard. This is your personalized welcome interface where you can manage everything in one place.</p>
                         <div class="banner-actions">
-                            <button class="btn-primary"><i class="fas fa-play"></i> Get Started</button>
-                            <button class="btn-secondary"><i class="fas fa-book"></i> View Documentation</button>
+                            <button class="btn-primary"><i class="fas fa-play"></i> <span data-i18n="Get Started">Get Started</span></button>
+                            <button class="btn-secondary"><i class="fas fa-book"></i> <span data-i18n="View Documentation">View Documentation</span></button>
                         </div>
                     </div>
                     <div class="banner-icon">
@@ -81,7 +82,7 @@
                         </div>
                         <div class="stat-info">
                             <h3>1,254</h3>
-                            <p>Total Users</p>
+                            <p data-i18n="Total Users">Total Users</p>
                         </div>
                         <div class="stat-trend">
                             <i class="fas fa-arrow-up"></i> 12%
@@ -93,7 +94,7 @@
                         </div>
                         <div class="stat-info">
                             <h3>2,847</h3>
-                            <p>Sessions Today</p>
+                            <p data-i18n="Sessions Today">Sessions Today</p>
                         </div>
                         <div class="stat-trend">
                             <i class="fas fa-arrow-up"></i> 8%
@@ -105,7 +106,7 @@
                         </div>
                         <div class="stat-info">
                             <h3>156</h3>
-                            <p>New Orders</p>
+                            <p data-i18n="New Orders">New Orders</p>
                         </div>
                         <div class="stat-trend">
                             <i class="fas fa-arrow-up"></i> 5%
@@ -117,7 +118,7 @@
                         </div>
                         <div class="stat-info">
                             <h3>$12,458</h3>
-                            <p>Revenue</p>
+                            <p data-i18n="Revenue">Revenue</p>
                         </div>
                         <div class="stat-trend">
                             <i class="fas fa-arrow-up"></i> 15%
@@ -129,8 +130,8 @@
                 <div class="content-grid">
                     <div class="content-card recent-activity">
                         <div class="card-header">
-                            <h3><i class="fas fa-history"></i> Recent Activity</h3>
-                            <a href="#" class="view-all">View All</a>
+                            <h3><i class="fas fa-history"></i> <span data-i18n="Recent Activity">Recent Activity</span></h3>
+                            <a href="#" class="view-all" data-i18n="View All">View All</a>
                         </div>
                         <ul class="activity-list">
                             <li>
@@ -138,72 +139,72 @@
                                     <i class="fas fa-user-plus"></i>
                                 </div>
                                 <div class="activity-details">
-                                    <p><strong>New user registered</strong></p>
-                                    <p>John Doe joined the platform</p>
+                                    <p><strong data-i18n="New user registered">New user registered</strong></p>
+                                    <p data-i18n="John Doe joined the platform">John Doe joined the platform</p>
                                 </div>
-                                <div class="activity-time">5 min ago</div>
+                                <div class="activity-time"><span data-i18n="5 min ago">5 min ago</span></div>
                             </li>
                             <li>
                                 <div class="activity-icon">
                                     <i class="fas fa-file-upload"></i>
                                 </div>
                                 <div class="activity-details">
-                                    <p><strong>File uploaded</strong></p>
-                                    <p>Project_document.pdf</p>
+                                    <p><strong data-i18n="File uploaded">File uploaded</strong></p>
+                                    <p data-i18n="Project_document.pdf">Project_document.pdf</p>
                                 </div>
-                                <div class="activity-time">1 hour ago</div>
+                                <div class="activity-time"><span data-i18n="1 hour ago">1 hour ago</span></div>
                             </li>
                             <li>
                                 <div class="activity-icon">
                                     <i class="fas fa-check-circle"></i>
                                 </div>
                                 <div class="activity-details">
-                                    <p><strong>Task completed</strong></p>
-                                    <p>"Design welcome page" marked as done</p>
+                                    <p><strong data-i18n="Task completed">Task completed</strong></p>
+                                    <p data-i18n="&quot;Design welcome page&quot; marked as done">"Design welcome page" marked as done</p>
                                 </div>
-                                <div class="activity-time">2 hours ago</div>
+                                <div class="activity-time"><span data-i18n="2 hours ago">2 hours ago</span></div>
                             </li>
                             <li>
                                 <div class="activity-icon">
                                     <i class="fas fa-comment"></i>
                                 </div>
                                 <div class="activity-details">
-                                    <p><strong>New comment</strong></p>
-                                    <p>On project dashboard design</p>
+                                    <p><strong data-i18n="New comment">New comment</strong></p>
+                                    <p data-i18n="On project dashboard design">On project dashboard design</p>
                                 </div>
-                                <div class="activity-time">3 hours ago</div>
+                                <div class="activity-time"><span data-i18n="3 hours ago">3 hours ago</span></div>
                             </li>
                         </ul>
                     </div>
 
                     <div class="content-card quick-actions">
                         <div class="card-header">
-                            <h3><i class="fas fa-bolt"></i> Quick Actions</h3>
+                            <h3><i class="fas fa-bolt"></i> <span data-i18n="Quick Actions">Quick Actions</span></h3>
                         </div>
                         <div class="actions-grid">
                             <button class="action-btn">
                                 <i class="fas fa-plus"></i>
-                                <span>Add User</span>
+                                <span data-i18n="Add User">Add User</span>
                             </button>
                             <button class="action-btn">
                                 <i class="fas fa-upload"></i>
-                                <span>Upload File</span>
+                                <span data-i18n="Upload File">Upload File</span>
                             </button>
                             <button class="action-btn">
                                 <i class="fas fa-chart-bar"></i>
-                                <span>Generate Report</span>
+                                <span data-i18n="Generate Report">Generate Report</span>
                             </button>
                             <button class="action-btn">
                                 <i class="fas fa-cog"></i>
-                                <span>Settings</span>
+                                <span data-i18n="Settings">Settings</span>
                             </button>
                             <button class="action-btn">
                                 <i class="fas fa-question"></i>
-                                <span>Help Center</span>
+                                <span data-i18n="Help Center">Help Center</span>
                             </button>
                             <button class="action-btn">
                                 <i class="fas fa-download"></i>
-                                <span>Export Data</span>
+                                <span data-i18n="Export Data">Export Data</span>
                             </button>
                         </div>
                     </div>
@@ -216,8 +217,8 @@
                             <i class="fas fa-code"></i>
                         </div>
                         <div class="helloworld-content">
-                            <h2><i class="fas fa-terminal"></i> Hello World Implementation</h2>
-                            <p class="helloworld-display">"Hello World! Welcome to our application dashboard. This classic programming greeting represents the beginning of your journey with our platform."</p>
+                            <h2><i class="fas fa-terminal"></i> <span data-i18n="Hello World Implementation">Hello World Implementation</span></h2>
+                            <p class="helloworld-display" data-i18n="&quot;Hello World! Welcome to our application dashboard. This classic programming greeting represents the beginning of your journey with our platform.&quot;">"Hello World! Welcome to our application dashboard. This classic programming greeting represents the beginning of your journey with our platform."</p>
                             <div class="code-snippet">
                                 <pre><code>// Hello World in JavaScript
 console.log("Hello World!");
@@ -228,7 +229,7 @@ print("Hello World!")
 // Hello World in HTML
 &lt;h1&gt;Hello World!&lt;/h1&gt;</code></pre>
                             </div>
-                            <button class="btn-primary"><i class="fas fa-copy"></i> Copy Code</button>
+                            <button class="btn-primary"><i class="fas fa-copy"></i> <span data-i18n="Copy Code">Copy Code</span></button>
                         </div>
                     </div>
                 </section>
@@ -236,52 +237,39 @@ print("Hello World!")
 
             <!-- Footer -->
             <footer class="footer">
-                <p>&copy; 2023 Welcome Dashboard. Created as part of the test-dsh-superagent project.</p>
+                <p data-i18n="&copy; 2023 Welcome Dashboard. Created as part of the test-dsh-superagent project.">&copy; 2023 Welcome Dashboard. Created as part of the test-dsh-superagent project.</p>
                 <div class="footer-links">
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms of Service</a>
-                    <a href="#">Contact Us</a>
+                    <a href="#" data-i18n="Privacy Policy">Privacy Policy</a>
+                    <a href="#" data-i18n="Terms of Service">Terms of Service</a>
+                    <a href="#" data-i18n="Contact Us">Contact Us</a>
                 </div>
             </footer>
         </main>
     </div>
 
     <script>
-        // Simple interactivity
+        // Initialize i18n when page loads
         document.addEventListener('DOMContentLoaded', function() {
-            // Copy code button
-            const copyButton = document.querySelector('.btn-primary .fa-copy').closest('button');
-            if (copyButton) {
-                copyButton.addEventListener('click', function() {
-                    const code = document.querySelector('.code-snippet code').innerText;
-                    navigator.clipboard.writeText(code).then(() => {
-                        const originalText = copyButton.innerHTML;
-                        copyButton.innerHTML = '<i class="fas fa-check"></i> Copied!';
-                        setTimeout(() => {
-                            copyButton.innerHTML = originalText;
-                        }, 2000);
-                    });
-                });
-            }
+            i18n.init();
+        });
+        
+        // Copy code functionality (unchanged)
+        document.querySelector('.btn-primary[data-i18n="Copy Code"]')?.addEventListener('click', function() {
+            const code = `// Hello World in JavaScript
+console.log("Hello World!");
 
-            // Nav menu interactivity
-            const navItems = document.querySelectorAll('.nav-menu li');
-            navItems.forEach(item => {
-                item.addEventListener('click', function(e) {
-                    if (!this.classList.contains('active')) {
-                        navItems.forEach(i => i.classList.remove('active'));
-                        this.classList.add('active');
-                    }
-                });
-            });
+// Hello World in Python
+print("Hello World!")
 
-            // Action buttons
-            const actionButtons = document.querySelectorAll('.action-btn');
-            actionButtons.forEach(button => {
-                button.addEventListener('click', function() {
-                    const action = this.querySelector('span').textContent;
-                    alert(`Action "${action}" triggered! This would perform the actual action in a real application.`);
-                });
+// Hello World in HTML
+<h1>Hello World!</h1>`;
+            
+            navigator.clipboard.writeText(code).then(() => {
+                const originalText = this.innerHTML;
+                this.innerHTML = '<i class="fas fa-check"></i> Copied!';
+                setTimeout(() => {
+                    this.innerHTML = originalText;
+                }, 2000);
             });
         });
     </script>
